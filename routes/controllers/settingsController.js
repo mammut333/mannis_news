@@ -5,7 +5,7 @@ const renderSettings = (req, res) => {
     const settings = settingsService.readSettings();
     res.render('settings', {
         title: 'Settings',
-        heading: 'Themenauswahl',
+        heading: 'Willkommen auf Mannis Nachrichtenseite 🙂!',
         settingsActive: true,
         newsApiKey: settings['news-api-key'] || '',
         newsApiCategories: newsapi.getCategories().map(categoryName => {

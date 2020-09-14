@@ -14,7 +14,7 @@ const renderHome = (req, res) => {
         .then(() => {
             res.render('home', {
                 title: 'News page',
-                heading: 'Willkommen auf Mannis Nachrichtenseite 🙂!',
+                heading: 'Die 20 aktuellsten Links zu dem gewählten Thema',
                 homeActive: true,
                 articles, 
                 message
