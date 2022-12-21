@@ -20,7 +20,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.17.3",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "newsapi-wrapper": "^1.0.6",
     "yarn": "^1.22.4"
   }
